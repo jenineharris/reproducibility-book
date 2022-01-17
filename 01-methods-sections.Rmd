@@ -6,7 +6,7 @@ For statistical analyses to be reproducible without sharing the statistical code
 
 Once the data are obtained, the first decision an analyst will likely make is choosing which software to use to clean, manage, and analyze the data. There are many options for analyzing quantitative data ranging from the Microsoft Excel software that comes standard with many computers, to proprietary options like SAS software and SPSS Statistics for Windows, to open source options like R and Python.
 
-Different software packages can be
+Different software options have different features and capabilities, some of which can make reproducibility more difficult to attain. Excel, for example, relies mostly on a menu-driven interface where the user chooses
 
 ### Which software package(s)
 
