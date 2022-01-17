@@ -1,21 +1,42 @@
-# Reproducibility and  {#intro}
+# Writing a detailed methods section {#chapter2}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+To be reproducible without sharing the statistical code, the description of data cleaning, management, and analysis must include enough detail to be repeated. This may sound straightforward until you start thinking of every decision you make 
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+## Data cleaning and management
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+### Units of analysis 
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+### Sample sizes
+
+### Variable types
+
+### Variable recoding details
+
+### Missing data coding
+
+## Analysis 
+
+###	Statistical approaches 
+
+###	Specific variables in each statistical model 
+
+###	Missing data handling 
+
+###	Analytic sample size
+
+##	Results 
+
+###	Test statistics 
+
+### Precise p-values 
+
+##	Software details 
+
+###	Which software package(s)
+
+###	Which version(s)
+
+##	Methods section examples and exercises 
+
