@@ -1,12 +1,22 @@
 # Writing a detailed methods section {#chapter2}
 
-To be reproducible without sharing the statistical code, the description of data cleaning, management, and analysis must include enough detail to be repeated. This may sound straightforward until you start thinking of every decision you make 
+For statistical analyses to be reproducible without sharing the statistical code, the data must be available and the description of all data cleaning, management, and analysis decisions must include enough detail to be repeated.[@Harris2018] This may sound straightforward until you start thinking of everything that goes into the data analysis process from choosing which software to use to deciding whether to report p-values as an inequality or not.
 
-## Data cleaning and management
+## Software details
 
+Once the data are obtained, the first decision an analyst will likely make is choosing which software to use to clean, manage, and analyze the data. There are many options for analyzing quantitative data ranging from the Microsoft Excel software that comes standard with many computers, to proprietary options like SAS software and SPSS Statistics for Windows, to open source options like R and Python.
 
+Different software packages can be
 
-### Units of analysis 
+### Which software package(s)
+
+### Which version(s)
+
+### 
+
+### Data cleaning and management
+
+### Units of analysis
 
 ### Sample sizes
 
@@ -16,27 +26,20 @@ To be reproducible without sharing the statistical code, the description of data
 
 ### Missing data coding
 
-## Analysis 
+## Analysis
 
-###	Statistical approaches 
+### Statistical approaches
 
-###	Specific variables in each statistical model 
+### Specific variables in each statistical model
 
-###	Missing data handling 
+### Missing data handling
 
-###	Analytic sample size
+### Analytic sample size
 
-##	Results 
+## Results
 
-###	Test statistics 
+### Test statistics
 
-### Precise p-values 
+### Precise p-values
 
-##	Software details 
-
-###	Which software package(s)
-
-###	Which version(s)
-
-##	Methods section examples and exercises 
-
+## Methods section examples and exercises
