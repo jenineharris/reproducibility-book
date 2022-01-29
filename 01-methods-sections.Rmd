@@ -6,11 +6,15 @@ For statistical analyses to be reproducible without sharing the statistical code
 
 Once the data are obtained, the first decision an analyst will likely make is choosing which software to use to clean, manage, and analyze the data. There are many options for analyzing quantitative data ranging from the Microsoft Excel software that comes standard with many computers, to proprietary options like SAS software and SPSS Statistics for Windows, to open source options like R and Python.
 
-Different software options have different features and capabilities, some of which can make reproducibility more difficult to attain. Excel, for example, relies mostly on a menu-driven interface where the user chooses
+Different software options have different features and capabilities, some of which can make reproducibility more difficult to attain. Excel, for example, relies mostly on a point-and-click and menu-driven interface where the user chooses options and makes edits without writing any code or keeping a list of all the steps taken. SAS and R, on the other hand, rely primarily on the user writing code to perform most tasks, which serves as a running list of what the user has done with the data. 
 
 ### Which software package(s)
 
+Although it may seem unnecessary to provide the software package and version (a regression analysis is a regression analysis, right?), this can actually be very important for reproducibility. Take, for example, a chi-squared test of independence. 
+
 ### Which version(s)
+
+Not only do different software packages often do things in slightly different (or very different) ways, but software gets updated over time, which can change the algorithms underlying the procedures being used.
 
 ### 
 
