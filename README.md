@@ -1,6 +1,6 @@
 #### Working title: An introduction to reproducible research practices for social scientists
 
-#####Author: Jenine K. Harris, PhD
+##### Author: Jenine K. Harris, PhD
 
 ###### BOOK DESCRIPTION
 
