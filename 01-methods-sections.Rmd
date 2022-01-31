@@ -12,6 +12,15 @@ Different software options have different features and capabilities, some of whi
 
 Although it may seem unnecessary to provide the software package and version (a regression analysis is a regression analysis, right?), this can actually be very important for reproducibility. Take, for example, a chi-squared test of independence. 
 
+```{r}
+library(package = "palmerpenguins")
+oneway.test(formula = flipper_length_mm ~ year, 
+       data = penguins)
+summary(aov(formula = flipper_length_mm ~ as.factor(year), 
+       data = penguins))
+```
+
+
 ### Which version(s)
 
 Not only do different software packages often do things in slightly different (or very different) ways, but software gets updated over time, which can change the algorithms underlying the procedures being used.
